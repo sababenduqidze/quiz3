@@ -1,0 +1,26 @@
+body {
+    background-color: #4594e4;
+}
+div {
+    width: 700px;
+    height: 400px;
+    background-color: white;
+}
+table {
+    width: 100%;
+    text-align: left;
+}
+tr,th,td {
+    padding: 10px;
+    font-size: 13px;
+
+}
+th {
+    background-color: #2e4760;
+}
+th:nth-child(even) {
+    background-color: #4ec4a2;
+}
+tr:nth-child(odd){
+    background-color: #f8f8f8;
+}
